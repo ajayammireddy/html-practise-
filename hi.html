@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Hello Viewerss
+    <img src="hyderabrestaurant.jpeg" alt="" height="200px" width="300px" style="border: 100px; border-color: rgb(226, 43, 73);">
+    <canvas id="canvas" width="200px" height="100px"></canvas>
+    <abbr title="compuer engineer">CE</abbr>
+    <li onclick="showDetails(this)">mivie</li>
+    <script>
+        function showDetails(movie){
+            var movieDir=movie.getAttribute("data-moviedir")
+            alert(movie.innerHTML+""+is directed by"+movieDir)
+        }
+    </script>
+</body>
+</html>

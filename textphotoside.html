@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Text Example</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Vertically center items */
+        }
+        
+        .logo {
+            width: 100px; /* Adjust width as needed */
+            height: auto;
+        }
+        
+        .text {
+            margin-left: 20px; /* Adjust spacing between image and text */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="text">
+            <h2>Welcome to My Website</h2>
+            <p>This is a sample text next to the logo.</p>
+        </div>
+    </div>
+</body>
+</html>
+2. Using CSS Grid:
+
+HTML:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Text Example</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto 1fr; /* Image column and text column */
+            align-items: center; /* Vertically center items */
+            column-gap: 20px; /* Adjust spacing between image and text */
+        }
+        
+        .logo {
+            width: 100px; /* Adjust width as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="baby.jpeg" alt="Logo" class="logo">
+        <div>
+            <h2>Welcome to My Website</h2>
+            <p>This is a sample text next to the logo.</p>
+        </div>
+    </div>
+</body>
+</html>
+In both examples, the key is to wrap the image and text in a container element and use CSS to control their positioning and spacing. The .container class uses either flexbox or grid properties to arrange the items side by side. You can adjust the widths, heights, margins, and other styles as needed to achieve the desired layout and appearance.
+
+
+
+
+

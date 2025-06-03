@@ -1,0 +1,18 @@
+<html>
+<head>
+
+</head>
+<body onload="show()">
+    <h1>Welcome </h1>
+    <h2 id="fn">First Name</h2>
+    <h2 id="pd">Password</h2>
+<script>
+    function show()
+    {
+        var x=localStorage.getItem("f1");
+        document.getElementById("fn").innerHTML=x;
+        document.getElementById("pd").innerHTML=localStorage.getItem("p1");
+    }
+</script>
+    </body>
+</html>

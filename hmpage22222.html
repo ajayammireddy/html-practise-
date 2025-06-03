@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Vidyanikethan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .header{
+        display: block;
+    }
+        .top{
+            display: flex;
+            gap:250px;
+        }
+        .head{
+            margin: 0;
+            display: flex;
+            list-style: none;
+        }
+        .slash{
+            font-size: 1.5rem;
+            color:#ed2d5a;
+        }
+        .contact{
+            margin-right: 90px;
+            display: flex;
+            float: right;
+            list-style: none;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .licences {
+            display: flex;
+            list-style: none;
+            margin-top: 50px;
+            gap: 12px;
+        }
+        .licences li:nth-child(1) {
+            animation: blink 2.5s linear infinite;
+        }
+        @keyframes blink {
+            0%{opacity: 0;}
+        50%{opacity: .5;}
+        100%{opacity: 1;}
+        }
+        .navbar {
+            margin-top: -10px;
+            color: whitesmoke;
+            background-color: #27334f;
+            list-style: none;
+            display: flex;
+            font-size: 1.0rem;
+            height: 40px;
+            justify-content: center;
+        }
+        .navitem {
+            padding: 10px;
+        }
+        .navitem:not(:last-child) {
+            border-right: 1px solid #ed2d5a;
+        }
+        .navitem:nth-child(1) {
+            background-color: #ed2d5a;
+        }
+        .navitem:hover {
+            background-color: #ed2d5a;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="top">
+    <img height="106" width="200" src="https://www.svec.education/wp-content/uploads/2020/07/svec-main-logo.png" alt="svec-main-logo">
+    <div class="header">
+    <ul class="head">
+        <li>Site Search <i class="fa fa-search" aria-hidden="true"></i> <span class="slash">\</span></li>
+        <li>A-Z directory <span class="slash">\</span></li>
+        <li>Gallery <span class="slash">\</span></li>
+        <li>Careers <span class="slash">\</span></li>
+        <li>Alumni <span class="slash">\</span></li>
+        <li>Student/Parent niva login <span class="slash">\</span></li>
+        <li>Acedamic verification <span class="slash">\</span></li>
+        <li>Contact Us <span class="slash"></span></li>
+    </ul>
+        <ul class="contact">
+        <li><i class="fa fa-phone" aria-hidden="true"></i> +91 877-2504888</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> info@vidyanikethan.edu</li>
+        <li><i class="fa-brands fa-facebook fa-xl" style="color: #153c80;"></i></li>
+        <li><i class="fa-brands fa-square-twitter fa-xl" style="color: #3872d6;"></i></li>
+        <li><i class="fa-brands fa-linkedin fa-xl" style="color: #2a63c6;"></i></li>
+        <li style="margin: 0 10px;"><img style="margin: -11px;" height="40" width="24" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt=""></li>
+        <li><img style="margin: -8px;" height="35" width="30" src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" alt=""></li>
+    </ul>
+    <ul class="licences">
+        <li><p style="font-size: .8rem; width: 390px;">
+            From the Academic Year 2023-2024, admissions through AP EAPCET / AP ECET / AP ICET / AP PGECET will be held with the Counseling Code: <span style="font-size: 1.3rem; color: #ed2d5a; font-weight: bold;"> MBUTPU1 & MBUTPU2
+            </span>
+                Admissions into Diploma through AP POLYCET will be held with the Counseling Code: <span style="font-size: 1.3rem; font-weight: bold; color: #ed2d5a ;">SVNE</span>
+        </p></li>
+        <li><img src="https://www.svec.education/wp-content/uploads/2020/07/nirf-logo.png" height="40" width="60" alt=""></li>
+        <li>
+            <img src="https://www.svec.education/wp-content/uploads/2020/01/rank-naac.png" width="95" height="40" alt="">
+        </li>
+        <li>
+            <img width="44" height="40" src="https://www.svec.education/wp-content/uploads/2020/01/nba.png" alt="">
+        </li>
+        <li>
+            <img width="34" height="40" src="https://www.svec.education/wp-content/uploads/2020/01/teqp.png" alt="">
+        </li>
+        <li>
+            <img width="44" height="40" src="https://www.svec.education/wp-content/uploads/2020/07/ugc.png" alt="">
+        </li>
+        <li>
+            <img width="44" height="40" src="https://www.svec.education/wp-content/uploads/2021/10/ariia-logo.png" alt="">
+        </li>
+    </ul>
+</div>
+</div>
+<ul class="navbar">
+    <li class="navitem"><i class="fa-solid fa-house-chimney fa-lg" style="color: #fafafa;"></i></li>
+    <li class="navitem">About us</li>
+    <li class="navitem">Admissions</li>
+    <li class="navitem">Academics</li>
+    <li class="navitem">Exams</li>
+    <li class="navitem">Research & Consultancy</li>
+    <li class="navitem">Innovation & Interpreneurship</li>
+    <li class="navitem">Training & Placements</li>
+    <li class="navitem">Industry Relations</li>
+    <li class="navitem">Campus Life</li>
+</ul>
+<div>
+<p>Placements: 2022 Graduating Batch - <div><marquee behavior="alternate " direction="left">Dream Offers: 300+, Companies Visited: 74, Offers received: 2026, Highest Package: 60,Lakhs, Average Package: 5.9 LPA</marquee></div></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="text-align: center; background-color: chocolate;">user login form</h1>
+    <form onsubmit="return showPopup()">
+    <fieldset>
+        <legend>login form</legend>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email"><br>
+        <label for="pswd">Password:</label>
+        <input type="password" id="pswd"><br>
+        <input type="submit">
+        <input type="reset">
+        </fieldset>
+    </form>
+        <input type="hidden" id="popup" disabled>
+        <script>
+            function showPopup(){
+                alert("Registration succesfull");
+                return false;
+            }
+        </script>
+</body>
+</html>
